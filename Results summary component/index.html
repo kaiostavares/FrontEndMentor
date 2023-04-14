@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Montserrat&display=swap" rel="stylesheet">  
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="result">
+      <h2>Your Result</h2>
+      <div class="progress">
+        <p class="reached">76</p>
+        <p class="all">of 100</p></div>
+      <h1>Great</h1>
+      <p class="scoreInformation">You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+
+    <div class="summary">
+      <h2>Summary</h2>
+      <div class="cards-pointes reactionCard">
+        <span>
+          <img src="./assets/images/icon-reaction.svg" alt="thunder icon">
+          <span class="title reactionTitle">Reaction</span>
+        </span>
+        <span class="pointers"><span class="point">80</span> / 100</span>
+      </div>
+
+      <div class="cards-pointes memoryCard">
+        <span>
+          <img src="./assets/images/icon-memory.svg" alt="memory icon">
+          <span class="title memoryTitle">Memory</span>
+        </span>
+        <span class="pointers"><span class="point">92</span> / 100</span>
+      </div>
+
+      <div class="cards-pointes verbalCard">
+        <span>
+          <img src="./assets/images/icon-verbal.svg" alt="verbal icon">
+          <span class="title verbalTitle">Verbal</span>
+        </span>
+        <span class="pointers"><span class="point">61</span> / 100</span>
+      </div>
+
+      <div class="cards-pointes visualCard">
+        <span>
+          <img src="./assets/images/icon-visual.svg" alt="visual icon">
+          <span class="title visualTitle">Visual</span>
+        </span>
+        <span class="pointers"><span class="point">72</span> / 100</span>
+      </div>
+
+      <button>Continue</button>
+    </div>
+  </main>  
+</body>
+</html>
