@@ -1,0 +1,10 @@
+.informations__title{
+  color: hsl(204, 43%, 93%);
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.informations__list___benefits{
+  color: hsla(203, 44%, 93%, 0.604);
+}

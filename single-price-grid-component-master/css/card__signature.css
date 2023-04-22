@@ -1,0 +1,37 @@
+.signature__title{
+  color: hsl(204, 43%, 93%);
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.signature__price{
+  color:hsl(204, 43%, 93%) ;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.signature__price___period{
+  font-size: 1rem;
+  font-weight: 400;
+  color:hsla(203, 44%, 93%, 0.834) ;
+}
+
+.signature__informations{
+  color: hsl(204, 43%, 93%);
+  margin-bottom: 1.5rem;
+}
+
+.signature__buttons{
+  border: 1px solid transparent;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 90%;
+  align-self: center;
+  background: hsl(71, 73%, 54%);
+  color: hsl(204, 43%, 93%);
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+}

@@ -1,0 +1,31 @@
+.description__title{
+  color: hsl(179, 62%, 43%);
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.description__subtitle{
+  color: hsl(71, 73%, 54%);
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.description__info{
+  color: hsl(218, 22%, 67%);
+}
+
+@media screen and (max-width:550px){
+  .description__title{
+    font-size: 1.5rem;
+  }
+
+  .description__subtitle{
+    font-size: 1rem;
+  }
+
+  .description__info{
+    line-height: 1.5;
+  }
+}
